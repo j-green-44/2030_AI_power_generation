@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1355" height="760" viewBox="0 0 1355 760" role="img" aria-label="Gas CCS fuel price projection">
+<rect x="0" y="0" width="100%" height="100%" fill="white"/>
+<text x="677.50" y="36" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700">Gas + CCS 25-Year Cost Projection by Fuel Price Scenario</text>
+<line x1="95" y1="680.00" x2="980" y2="680.00" stroke="#d9d9d9" stroke-width="1"/>
+<text x="83" y="685.00" text-anchor="end" font-family="Arial" font-size="13" fill="#333">0.0</text>
+<line x1="95" y1="580.00" x2="980" y2="580.00" stroke="#d9d9d9" stroke-width="1"/>
+<text x="83" y="585.00" text-anchor="end" font-family="Arial" font-size="13" fill="#333">40.4</text>
+<line x1="95" y1="480.00" x2="980" y2="480.00" stroke="#d9d9d9" stroke-width="1"/>
+<text x="83" y="485.00" text-anchor="end" font-family="Arial" font-size="13" fill="#333">80.7</text>
+<line x1="95" y1="380.00" x2="980" y2="380.00" stroke="#d9d9d9" stroke-width="1"/>
+<text x="83" y="385.00" text-anchor="end" font-family="Arial" font-size="13" fill="#333">121.1</text>
+<line x1="95" y1="280.00" x2="980" y2="280.00" stroke="#d9d9d9" stroke-width="1"/>
+<text x="83" y="285.00" text-anchor="end" font-family="Arial" font-size="13" fill="#333">161.5</text>
+<line x1="95" y1="180.00" x2="980" y2="180.00" stroke="#d9d9d9" stroke-width="1"/>
+<text x="83" y="185.00" text-anchor="end" font-family="Arial" font-size="13" fill="#333">201.9</text>
+<line x1="95" y1="80.00" x2="980" y2="80.00" stroke="#d9d9d9" stroke-width="1"/>
+<text x="83" y="85.00" text-anchor="end" font-family="Arial" font-size="13" fill="#333">242.2</text>
+<line x1="95" y1="680" x2="980" y2="680" stroke="#333" stroke-width="2"/>
+<line x1="95" y1="80" x2="95" y2="680" stroke="#333" stroke-width="2"/>
+<line x1="95.00" y1="680" x2="95.00" y2="686" stroke="#333" stroke-width="1"/>
+<text x="95.00" y="704" text-anchor="middle" font-family="Arial" font-size="13" fill="#333">1</text>
+<line x1="279.38" y1="680" x2="279.38" y2="686" stroke="#333" stroke-width="1"/>
+<text x="279.38" y="704" text-anchor="middle" font-family="Arial" font-size="13" fill="#333">6</text>
+<line x1="463.75" y1="680" x2="463.75" y2="686" stroke="#333" stroke-width="1"/>
+<text x="463.75" y="704" text-anchor="middle" font-family="Arial" font-size="13" fill="#333">11</text>
+<line x1="648.12" y1="680" x2="648.12" y2="686" stroke="#333" stroke-width="1"/>
+<text x="648.12" y="704" text-anchor="middle" font-family="Arial" font-size="13" fill="#333">16</text>
+<line x1="832.50" y1="680" x2="832.50" y2="686" stroke="#333" stroke-width="1"/>
+<text x="832.50" y="704" text-anchor="middle" font-family="Arial" font-size="13" fill="#333">21</text>
+<line x1="980.00" y1="680" x2="980.00" y2="686" stroke="#333" stroke-width="1"/>
+<text x="980.00" y="704" text-anchor="middle" font-family="Arial" font-size="13" fill="#333">25</text>
+<text x="537.50" y="742" text-anchor="middle" font-family="Arial" font-size="16" fill="#222">Project year</text>
+<text x="28" y="380.00" transform="rotate(-90, 28, 380.00)" text-anchor="middle" font-family="Arial" font-size="16" fill="#222">Cumulative total expenditure (GBP billion)</text>
+<polyline fill="none" stroke="#2E8B57" stroke-width="3" points="95.00,629.38 131.88,616.53 168.75,603.68 205.62,590.83 242.50,577.99 279.38,565.14 316.25,552.29 353.12,539.44 390.00,526.59 426.88,511.67 463.75,498.82 500.62,485.97 537.50,473.12 574.38,460.27 611.25,447.43 648.12,434.58 685.00,421.73 721.88,408.88 758.75,396.03 795.62,381.10 832.50,368.26 869.38,355.41 906.25,342.56 943.12,329.71 980.00,316.86"/>
+<polyline fill="none" stroke="#1F77B4" stroke-width="3" points="95.00,625.59 131.88,608.95 168.75,592.31 205.62,575.67 242.50,559.04 279.38,542.40 316.25,525.76 353.12,509.12 390.00,492.49 426.88,473.77 463.75,457.13 500.62,440.49 537.50,423.85 574.38,407.22 611.25,390.58 648.12,373.94 685.00,357.30 721.88,340.66 758.75,324.03 795.62,305.31 832.50,288.67 869.38,272.03 906.25,255.39 943.12,238.76 980.00,222.12"/>
+<polyline fill="none" stroke="#D62728" stroke-width="3" points="95.00,619.90 131.88,597.58 168.75,575.26 205.62,552.94 242.50,530.61 279.38,508.29 316.25,485.97 353.12,463.65 390.00,441.32 426.88,416.92 463.75,394.60 500.62,372.27 537.50,349.95 574.38,327.63 611.25,305.31 648.12,282.98 685.00,260.66 721.88,238.34 758.75,216.02 795.62,191.61 832.50,169.29 869.38,146.97 906.25,124.65 943.12,102.32 980.00,80.00"/>
+<polyline fill="none" stroke="#111111" stroke-width="3" stroke-dasharray="10 6" points="95.00,481.37 131.88,471.53 168.75,461.70 205.62,451.86 242.50,442.03 279.38,432.19 316.25,422.36 353.12,412.52 390.00,402.69 426.88,392.85 463.75,383.02 500.62,373.18 537.50,363.34 574.38,353.51 611.25,343.67 648.12,333.84 685.00,324.00 721.88,314.17 758.75,304.33 795.62,294.50 832.50,284.66 869.38,274.83 906.25,264.99 943.12,255.16 980.00,245.32"/>
+<rect x="991" y="80" width="330" height="164" fill="white" stroke="#c7c7c7" stroke-width="1"/>
+<text x="1005" y="102" font-family="Arial" font-size="15" font-weight="700" fill="#222">Scenarios</text>
+<line x1="1005" y1="124" x2="1033" y2="124" stroke="#2E8B57" stroke-width="4"/>
+<text x="1041" y="129" font-family="Arial" font-size="14" fill="#333">Low fuel price (25.00 GBP/MWh_th)</text>
+<line x1="1005" y1="158" x2="1033" y2="158" stroke="#1F77B4" stroke-width="4"/>
+<text x="1041" y="163" font-family="Arial" font-size="14" fill="#333">Medium fuel price (35.00 GBP/MWh_th)</text>
+<line x1="1005" y1="192" x2="1033" y2="192" stroke="#D62728" stroke-width="4"/>
+<text x="1041" y="197" font-family="Arial" font-size="14" fill="#333">High fuel price (50.00 GBP/MWh_th)</text>
+<line x1="1005" y1="226" x2="1033" y2="226" stroke="#111111" stroke-width="4" stroke-dasharray="10 6"/>
+<text x="1041" y="231" font-family="Arial" font-size="14" fill="#333">Wind + H2 (CAPEX + annual OPEX)</text>
+</svg>

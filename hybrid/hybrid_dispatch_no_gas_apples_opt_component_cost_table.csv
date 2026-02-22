@@ -1,0 +1,15 @@
+design_component,best_design_(MW/MWh-H2),capex_for_best_design,opex_over_25_years_for_best_design
+wind,16000.00 MW,40000000000.0,36000000000.0
+solar,20000.00 MW,14000000000.0,7000000000.0
+electrolyzer,4000.00 MW,6000000000.0,27106283746.119045
+h2_turbine,8200.00 MW,8610000000.0,7585148113.219023
+h2_storage,5500000.00 MWh-H2,16500000000.0,275000000.0
+gas_ccs_capacity,0.00 MW,0.0,0.0
+gas_fixed_om,,0.0,0.0
+gas_variable_om,,0.0,0.0
+gas_fuel,,0.0,0.0
+gas_ccs_consumables,,0.0,0.0
+gas_co2_transport_storage,,0.0,0.0
+gas_residual_carbon,,0.0,0.0
+gas_major_maintenance,,0.0,0.0
+TOTAL,,85110000000.0,77966431859.33807

@@ -1,0 +1,18 @@
+design_component,best_design_(MW/MWh-H2),capex_for_best_design,opex_over_25_years_for_best_design
+wind_h2:wind,0.00 MW,0.0,0.0
+wind_h2:electrolyzer,0.00 MW,0.0,0.0
+wind_h2:h2_turbine,0.00 MW,0.0,0.0
+wind_h2:storage,0.00 MWh-H2,0.0,0.0
+solar_h2:solar,0.00 MW,0.0,0.0
+solar_h2:electrolyzer,0.00 MW,0.0,0.0
+solar_h2:h2_turbine,0.00 MW,0.0,0.0
+solar_h2:storage,0.00 MWh-H2,0.0,0.0
+gas_ccs:fleet_capex,10933.33 MW,15250000000.0,0.0
+gas_ccs:fuel,,0.0,133876890000.0
+gas_ccs:fixed_om,,0.0,6573666666.666667
+gas_ccs:variable_om,,0.0,8979000000.0
+gas_ccs:ccs_consumables,,0.0,3591600000.0
+gas_ccs:co2_transport_storage,,0.0,12694971720.600002
+gas_ccs:residual_carbon,,0.0,2208555579.167999
+gas_ccs:major_maintenance,,0.0,1771200000.0
+TOTAL,,15250000000.0,169695883966.43466

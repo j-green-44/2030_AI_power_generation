@@ -1,0 +1,63 @@
+{
+  "scenario_name": "gas_ccs_midrange_for_comparison",
+  "currency": "GBP_2026_placeholder",
+  "output_prefix": "gas_ccs_midrange",
+  "write_yearly_csv": true,
+  "use_fuel_price_scenario": "base",
+  "project_lifecycle_years": 25,
+  "discount_rate": 0.0,
+  "hours_per_year": 8760.0,
+  "demand_mw": 8200.0,
+  "load_factor": 0.75,
+  "required_installed_capacity_mw": 10933.333333333334,
+  "plant_unit_capacity_mw": 900.0,
+  "plant_count_nominal": 12,
+  "plant_count_fractional_for_capacity_calc": 12.148148148148149,
+  "capital_cost_total_gbp_mid": 15250000000.0,
+  "capital_cost_total_gbp_low": 10800000000.0,
+  "capital_cost_total_gbp_high": 19700000000.0,
+  "capital_cost_gbp_per_gw_mid": 1386363636.3636363,
+  "capital_cost_gbp_per_1p8gw_plant_mid": 2495454545.4545455,
+  "fuel_price_gbp_per_mwh_th_base": 35.0,
+  "fuel_price_scenarios_gbp_per_mwh_th": {
+    "low": 25.0,
+    "base": 35.0,
+    "high": 50.0
+  },
+  "net_heat_rate_mwh_th_per_mwh_e": 2.13,
+  "ccs_capture_rate_pct_mid": 92.5,
+  "ccs_capture_rate_pct_low": 90.0,
+  "ccs_capture_rate_pct_high": 95.0,
+  "ccs_energy_penalty_pct_points": 7.2,
+  "co2_transport_storage_cost_gbp_per_tco2_mid": 19.5,
+  "co2_transport_storage_cost_gbp_per_tco2_low": 8.0,
+  "co2_transport_storage_cost_gbp_per_tco2_high": 31.0,
+  "residual_emissions_carbon_cost_gbp_per_tco2": 41.84,
+  "natural_gas_emissions_tco2_per_mwh_th": 0.184,
+  "fixed_om_gbp_per_mw_year_mid": 24050.0,
+  "fixed_om_gbp_per_mw_year_low": 22300.0,
+  "fixed_om_gbp_per_mw_year_high": 25800.0,
+  "variable_om_gbp_per_mwh_e": 5.0,
+  "ccs_consumables_gbp_per_mwh_e_mid_assumption": 2.0,
+  "major_maintenance_interval_years_assumption": 10,
+  "major_maintenance_cost_basis": "per_mw",
+  "major_maintenance_cost_gbp_per_mw_mid": 81000.0,
+  "major_maintenance_cost_gbp_per_gw_mid": 81000000.0,
+  "major_maintenance_cost_gbp_per_plant_mid": 72900000.0,
+  "round_plant_count_for_maintenance_up": false,
+  "major_maintenance_reference_costs_gbp_per_plant": {
+    "standard_maintenance": 50000000.0,
+    "life_extension": 140000000.0,
+    "repowering": 930000000.0
+  },
+  "major_maintenance_source_links": [
+    "https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions",
+    "https://assets.publishing.service.gov.uk/media/69663541e8b93f59c3aecd76/hydrogen-to-power-cost-barriers.pdf"
+  ],
+  "notes": [
+    "Mid values are used where low/high ranges were available.",
+    "Fuel price and CCS consumables are central assumptions for now and should be replaced with your preferred DESNZ central trajectory and project-specific consumables data.",
+    "Major maintenance is modeled on a per-MW event-cost basis using 81 GBP/kW (81,000 GBP/MW) from the UK hydrogen-to-power report (Option 1B, life extension case).",
+    "This file is intended as a comparison input template for future gas+CCS modelling."
+  ]
+}
