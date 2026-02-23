@@ -370,6 +370,10 @@ def main():
                 cfg["indefinite_soc_convergence_tol_mwh"]
             ),
             "indefinite_unmet_tolerance_mwh": float(cfg["indefinite_unmet_tolerance_mwh"]),
+            "require_h2_cyclic_non_depleting": bool(
+                cfg["require_h2_cyclic_non_depleting"]
+            ),
+            "h2_cyclic_tolerance_mwh": float(cfg["h2_cyclic_tolerance_mwh"]),
         },
         "search_stats": {
             "wind_candidates": len(wind_candidates),

@@ -44,6 +44,10 @@ DEFAULTS = {
     "indefinite_check_years": 20,
     "indefinite_soc_convergence_tol_mwh": 1000.0,
     "indefinite_unmet_tolerance_mwh": 1e-6,
+    # Optional additional constraint: require end SOC to be non-depleting
+    # relative to initial SOC over the configured repeated-year horizon.
+    "require_h2_cyclic_non_depleting": False,
+    "h2_cyclic_tolerance_mwh": 1.0,
     # Annual OPEX assumptions (same currency basis as CAPEX inputs).
     "wind_fixed_om_per_mw_year": 0.0,
     "electrolyzer_fixed_om_per_mw_year": 0.0,
@@ -162,6 +166,8 @@ def validate(cfg):
         raise ValueError("indefinite_soc_convergence_tol_mwh must be >= 0.")
     if float(cfg["indefinite_unmet_tolerance_mwh"]) < 0:
         raise ValueError("indefinite_unmet_tolerance_mwh must be >= 0.")
+    if float(cfg["h2_cyclic_tolerance_mwh"]) < 0:
+        raise ValueError("h2_cyclic_tolerance_mwh must be >= 0.")
     non_negative_opex = [
         "wind_fixed_om_per_mw_year",
         "electrolyzer_fixed_om_per_mw_year",
@@ -401,6 +407,8 @@ def find_min_storage(
     tol_unmet_mwh = float(cfg["indefinite_unmet_tolerance_mwh"])
     indefinite_check_years = int(cfg["indefinite_check_years"])
     indefinite_soc_convergence_tol_mwh = float(cfg["indefinite_soc_convergence_tol_mwh"])
+    require_h2_cyclic_non_depleting = bool(cfg["require_h2_cyclic_non_depleting"])
+    h2_cyclic_tolerance_mwh = float(cfg["h2_cyclic_tolerance_mwh"])
     s_min = float(cfg["optimize_storage_min_mwh_h2"])
     s_max = float(cfg["optimize_storage_max_mwh_h2"])
     iters = int(cfg["optimize_storage_binary_iterations"])
@@ -425,7 +433,14 @@ def find_min_storage(
             indefinite_soc_convergence_tol_mwh=indefinite_soc_convergence_tol_mwh,
             indefinite_unmet_tolerance_mwh=tol_unmet_mwh,
         )
-        return assessment["indefinite_feasible"], assessment
+        cyclic_ok = (
+            (not require_h2_cyclic_non_depleting)
+            or (
+                assessment["final_soc_mwh"] + h2_cyclic_tolerance_mwh
+                >= assessment["start_soc_mwh"]
+            )
+        )
+        return assessment["indefinite_feasible"] and cyclic_ok, assessment
 
     ok_max, sim_max = feasible_for_storage(s_max)
     if not ok_max:

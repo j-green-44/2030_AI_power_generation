@@ -1,0 +1,96 @@
+parameter_name,parameter_description,value_used,likely_range,citation
+wind_h2.csv,Input hourly generation profile CSV path,wind/ninja_wind_56.4559_-1.3674_corrected.csv,Model/config input (project-specific),https://www.renewables.ninja/documentation
+wind_h2.demand_mw,Flat electricity demand target,8200.0,"6,000 to 12,000 MW (scenario-dependent)",Assumption in this case study (no external source)
+wind_h2.electricity_to_hydrogen_efficiency,Electrolyzer conversion efficiency (electricity to H2),0.7,0.60 to 0.80,https://www.irena.org/publications/2020/Dec/Green-hydrogen-cost-reduction
+wind_h2.hydrogen_to_electricity_efficiency,Power-block conversion efficiency (H2 to electricity),0.64,0.45 to 0.65,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+wind_h2.wind_stress_factor,Scaling factor applied to wind profile output,1,0.70 to 1.10,Assumption in this case study (no external source)
+wind_h2.simulation_installed_capacity_mw,Installed capacity represented by profile scaling basis,32704.87,> 0 MW (project-specific),Assumption in this case study (no external source)
+wind_h2.uk_salt_cavern_working_capacity_tonnes_h2,Assumed working hydrogen per UK salt cavern,5500.0,"3,000 to 6,000 tonnes H2/cavern",https://assets.publishing.service.gov.uk/media/68aebcef3a052c9c504c8e60/The_geomechanics_of_hydrogen_storage_in_salt_caverns_-_environmental_considerations_-_report.pdf
+wind_h2.current_installed_capacity_mw,Current installed capacity assumption,16400.0,> 0 MW (project-specific),Assumption in this case study (no external source)
+wind_h2.turbine_rating_mw,Single turbine nameplate rating,9.5,8 to 15 MW,https://www.vestas.com/en/media/mwow-press-releases/2018/Final-Certification-V164-9-5-MW-Offshore-Turbine
+wind_h2.capex_wind_per_mw,Wind CAPEX intensity per MW,2500000.0,1.5m to 4.0m GBP/MW,https://www.arup.com/perspectives/publications/research/section/understanding-the-cost-of-uk-energy
+wind_h2.capex_electrolyzer_per_mw,Electrolyzer CAPEX intensity per MW,1500000.0,0.6m to 2.6m GBP/MW,https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary
+wind_h2.capex_h2_turbine_per_mw,Hydrogen turbine CAPEX intensity per MW,1050000.0,0.7m to 1.8m GBP/MW,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+wind_h2.capex_storage_per_mwh_h2,Hydrogen storage CAPEX intensity per MWh-H2,3000.0,"1,000 to 10,000 GBP/MWh-H2",https://assets.publishing.service.gov.uk/media/68aebcef3a052c9c504c8e60/The_geomechanics_of_hydrogen_storage_in_salt_caverns_-_environmental_considerations_-_report.pdf
+wind_h2.wind_fixed_om_per_mw_year,Wind fixed O&M intensity per MW-year,90000.0,"30,000 to 120,000 GBP/MW-yr",https://www.arup.com/perspectives/publications/research/section/understanding-the-cost-of-uk-energy
+wind_h2.electrolyzer_fixed_om_per_mw_year,Electrolyzer fixed O&M intensity per MW-year,15000.0,"10,000 to 30,000 GBP/MW-yr",https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary
+wind_h2.electrolyzer_variable_om_per_mwh_in,Electrolyzer variable O&M per MWh input,3.0,1 to 10 GBP/MWh,https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary
+wind_h2.h2_turbine_fixed_om_per_mw_year,Hydrogen turbine fixed O&M intensity per MW-year,30000.0,"15,000 to 50,000 GBP/MW-yr",https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+wind_h2.h2_turbine_variable_om_per_mwh_out,Hydrogen turbine variable O&M per MWh output,5.0,2 to 15 GBP/MWh,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+wind_h2.storage_om_per_mwh_h2_year,Hydrogen storage O&M per MWh-H2-year,2.0,1 to 10 GBP/MWh-H2-yr,https://assets.publishing.service.gov.uk/media/68aebcef3a052c9c504c8e60/The_geomechanics_of_hydrogen_storage_in_salt_caverns_-_environmental_considerations_-_report.pdf
+wind_h2.electrolyzer_stack_replacement_cost_per_mw,Electrolyzer stack replacement cost per MW,200000.0,"100,000 to 400,000 GBP/MW",https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary
+wind_h2.electrolyzer_stack_replacement_interval_years,Electrolyzer stack replacement interval,7.0,5 to 10 years,https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary
+wind_h2.water_cost_per_kg_h2,Water cost per kg of hydrogen produced,0.1,0.05 to 0.50 GBP/kg-H2,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+wind_h2.compression_and_purification_cost_per_kg_h2,Compression and purification cost per kg H2,2.0,1.0 to 3.0 GBP/kg-H2,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+wind_h2.lifecycle_years,Economic analysis horizon in years,25,20 to 30 years,https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-governent/the-green-book-2020
+wind_h2.lifecycle_discount_rate,Discount rate for lifecycle costing,0.0,0.00 to 0.07,https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-governent/the-green-book-2020
+solar_h2.csv,Input hourly generation profile CSV path,solar/ninja_pv_50.9037_-1.4030_corrected.csv,Model/config input (project-specific),https://www.renewables.ninja/documentation
+solar_h2.demand_mw,Flat electricity demand target,8200.0,"6,000 to 12,000 MW (scenario-dependent)",Assumption in this case study (no external source)
+solar_h2.electricity_to_hydrogen_efficiency,Electrolyzer conversion efficiency (electricity to H2),0.7,0.60 to 0.80,https://www.irena.org/publications/2020/Dec/Green-hydrogen-cost-reduction
+solar_h2.hydrogen_to_electricity_efficiency,Power-block conversion efficiency (H2 to electricity),0.64,0.45 to 0.65,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+solar_h2.wind_stress_factor,Scaling factor applied to wind profile output,1.0,0.70 to 1.10,Assumption in this case study (no external source)
+solar_h2.solar_stress_factor,Scaling factor applied to solar profile output,1.0,0.70 to 1.10,Assumption in this case study (no external source)
+solar_h2.simulation_installed_capacity_mw,Installed capacity represented by profile scaling basis,1.0,> 0 MW (project-specific),Assumption in this case study (no external source)
+solar_h2.current_installed_capacity_mw,Current installed capacity assumption,1.0,> 0 MW (project-specific),Assumption in this case study (no external source)
+solar_h2.uk_salt_cavern_working_capacity_tonnes_h2,Assumed working hydrogen per UK salt cavern,5500.0,"3,000 to 6,000 tonnes H2/cavern",https://assets.publishing.service.gov.uk/media/68aebcef3a052c9c504c8e60/The_geomechanics_of_hydrogen_storage_in_salt_caverns_-_environmental_considerations_-_report.pdf
+solar_h2.capex_solar_per_mw,Solar CAPEX intensity per MW,700000.0,0.5m to 1.0m GBP/MW,https://www.arup.com/perspectives/publications/research/section/understanding-the-cost-of-uk-energy
+solar_h2.capex_wind_per_mw,Wind CAPEX intensity per MW,700000.0,1.5m to 4.0m GBP/MW,https://www.arup.com/perspectives/publications/research/section/understanding-the-cost-of-uk-energy
+solar_h2.capex_electrolyzer_per_mw,Electrolyzer CAPEX intensity per MW,1500000.0,0.6m to 2.6m GBP/MW,https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary
+solar_h2.capex_h2_turbine_per_mw,Hydrogen turbine CAPEX intensity per MW,1050000.0,0.7m to 1.8m GBP/MW,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+solar_h2.capex_storage_per_mwh_h2,Hydrogen storage CAPEX intensity per MWh-H2,3000.0,"1,000 to 10,000 GBP/MWh-H2",https://assets.publishing.service.gov.uk/media/68aebcef3a052c9c504c8e60/The_geomechanics_of_hydrogen_storage_in_salt_caverns_-_environmental_considerations_-_report.pdf
+solar_h2.solar_fixed_om_per_mw_year,Solar fixed O&M intensity per MW-year,14000.0,"10,000 to 25,000 GBP/MW-yr",https://www.arup.com/perspectives/publications/research/section/understanding-the-cost-of-uk-energy
+solar_h2.wind_fixed_om_per_mw_year,Wind fixed O&M intensity per MW-year,14000.0,"30,000 to 120,000 GBP/MW-yr",https://www.arup.com/perspectives/publications/research/section/understanding-the-cost-of-uk-energy
+solar_h2.electrolyzer_fixed_om_per_mw_year,Electrolyzer fixed O&M intensity per MW-year,15000.0,"10,000 to 30,000 GBP/MW-yr",https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary
+solar_h2.electrolyzer_variable_om_per_mwh_in,Electrolyzer variable O&M per MWh input,3.0,1 to 10 GBP/MWh,https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary
+solar_h2.h2_turbine_fixed_om_per_mw_year,Hydrogen turbine fixed O&M intensity per MW-year,30000.0,"15,000 to 50,000 GBP/MW-yr",https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+solar_h2.h2_turbine_variable_om_per_mwh_out,Hydrogen turbine variable O&M per MWh output,5.0,2 to 15 GBP/MWh,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+solar_h2.storage_om_per_mwh_h2_year,Hydrogen storage O&M per MWh-H2-year,2.0,1 to 10 GBP/MWh-H2-yr,https://assets.publishing.service.gov.uk/media/68aebcef3a052c9c504c8e60/The_geomechanics_of_hydrogen_storage_in_salt_caverns_-_environmental_considerations_-_report.pdf
+solar_h2.electrolyzer_stack_replacement_cost_per_mw,Electrolyzer stack replacement cost per MW,200000.0,"100,000 to 400,000 GBP/MW",https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary
+solar_h2.electrolyzer_stack_replacement_interval_years,Electrolyzer stack replacement interval,7.0,5 to 10 years,https://www.iea.org/reports/global-hydrogen-review-2025/executive-summary
+solar_h2.water_cost_per_kg_h2,Water cost per kg of hydrogen produced,0.1,0.05 to 0.50 GBP/kg-H2,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+solar_h2.compression_and_purification_cost_per_kg_h2,Compression and purification cost per kg H2,2.0,1.0 to 3.0 GBP/kg-H2,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+solar_h2.lifecycle_years,Economic analysis horizon in years,25,20 to 30 years,https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-governent/the-green-book-2020
+solar_h2.lifecycle_discount_rate,Discount rate for lifecycle costing,0.0,0.00 to 0.07,https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-governent/the-green-book-2020
+solar_h2.solar_degradation_pct_per_year,Annual solar output degradation rate,0.5,0.2 to 0.8 %/year,https://www.nrel.gov/docs/fy24osti/87595.pdf
+solar_h2.project_lifetime_years,Project lifetime assumption in years,25,20 to 30 years,https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-governent/the-green-book-2020
+gas_ccs.use_fuel_price_scenario,Text/path model input parameter,base,Project-specific text/path assumption,https://www.gov.uk/government/publications/fossil-fuel-price-assumptions-2025
+gas_ccs.project_lifecycle_years,Economic analysis horizon in years,25,20 to 30 years,https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-governent/the-green-book-2020
+gas_ccs.discount_rate,Discount rate for lifecycle costing,0.0,0.00 to 0.07,https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-governent/the-green-book-2020
+gas_ccs.hours_per_year,Operating hours assumed per year,8760.0,"8,760 (non-leap), 8,784 (leap)",Assumption in this case study (no external source)
+gas_ccs.demand_mw,Flat electricity demand target,8200.0,"6,000 to 12,000 MW (scenario-dependent)",Assumption in this case study (no external source)
+gas_ccs.load_factor,Plant utilization/load factor assumption,0.75,0.50 to 0.90,https://www.gov.uk/government/publications/electricity-generation-costs-2023
+gas_ccs.required_installed_capacity_mw,Installed capacity required to meet target load factor,10933.333333333334,Project-specific numeric assumption,Assumption in this case study (no external source)
+gas_ccs.plant_unit_capacity_mw,Nominal capacity of one plant unit,900.0,Project-specific numeric assumption,Assumption in this case study (no external source)
+gas_ccs.plant_count_nominal,Nominal number of plant units,12,Project-specific numeric assumption,Assumption in this case study (no external source)
+gas_ccs.capital_cost_total_gbp_mid,Total gas+CCS CAPEX (mid assumption),15250000000.0,10800000000.0 to 19700000000.0,https://www.gov.uk/government/publications/electricity-generation-costs-2023
+gas_ccs.capital_cost_total_gbp_low,Total gas+CCS CAPEX (low assumption),10800000000.0,Project-specific numeric assumption,https://www.gov.uk/government/publications/electricity-generation-costs-2023
+gas_ccs.capital_cost_total_gbp_high,Total gas+CCS CAPEX (high assumption),19700000000.0,Project-specific numeric assumption,https://www.gov.uk/government/publications/electricity-generation-costs-2023
+gas_ccs.capital_cost_gbp_per_gw_mid,Gas+CCS CAPEX intensity per GW (mid assumption),1386363636.3636363,Project-specific numeric assumption,https://www.gov.uk/government/publications/electricity-generation-costs-2023
+gas_ccs.capital_cost_gbp_per_1p8gw_plant_mid,Gas+CCS CAPEX per 1.8 GW plant (mid assumption),2495454545.4545455,Project-specific numeric assumption,https://www.gov.uk/government/publications/electricity-generation-costs-2023
+gas_ccs.fuel_price_gbp_per_mwh_th_base,Base gas fuel price assumption,35.0,DESNZ scenario-dependent; roughly 15 to 50 GBP/MWh_th,https://www.gov.uk/government/publications/fossil-fuel-price-assumptions-2025
+gas_ccs.fuel_price_scenarios_gbp_per_mwh_th.low,Gas fuel price scenario value (low),25.0,25.0 to 50.0 GBP/MWh_th,https://www.gov.uk/government/publications/fossil-fuel-price-assumptions-2025
+gas_ccs.fuel_price_scenarios_gbp_per_mwh_th.base,Gas fuel price scenario value (base),35.0,25.0 to 50.0 GBP/MWh_th,https://www.gov.uk/government/publications/fossil-fuel-price-assumptions-2025
+gas_ccs.fuel_price_scenarios_gbp_per_mwh_th.high,Gas fuel price scenario value (high),50.0,25.0 to 50.0 GBP/MWh_th,https://www.gov.uk/government/publications/fossil-fuel-price-assumptions-2025
+gas_ccs.net_heat_rate_mwh_th_per_mwh_e,Thermal energy input per electric output,2.13,1.8 to 2.5,https://www.gov.uk/government/publications/electricity-generation-costs-2023
+gas_ccs.ccs_capture_rate_pct_mid,CO2 capture rate (mid assumption),92.5,90 to 95 %,https://assets.publishing.service.gov.uk/media/69663541e8b93f59c3aecd76/hydrogen-to-power-cost-barriers.pdf
+gas_ccs.ccs_capture_rate_pct_low,CO2 capture rate (low assumption),90.0,Project-specific numeric assumption,https://assets.publishing.service.gov.uk/media/69663541e8b93f59c3aecd76/hydrogen-to-power-cost-barriers.pdf
+gas_ccs.ccs_capture_rate_pct_high,CO2 capture rate (high assumption),95.0,Project-specific numeric assumption,https://assets.publishing.service.gov.uk/media/69663541e8b93f59c3aecd76/hydrogen-to-power-cost-barriers.pdf
+gas_ccs.ccs_energy_penalty_pct_points,CCS efficiency penalty in percentage points,7.2,5 to 10 percentage points,https://assets.publishing.service.gov.uk/media/69663541e8b93f59c3aecd76/hydrogen-to-power-cost-barriers.pdf
+gas_ccs.co2_transport_storage_cost_gbp_per_tco2_mid,CO2 transport and storage cost (mid),19.5,8 to 31 GBP/tCO2,https://assets.publishing.service.gov.uk/media/69663541e8b93f59c3aecd76/hydrogen-to-power-cost-barriers.pdf
+gas_ccs.co2_transport_storage_cost_gbp_per_tco2_low,CO2 transport and storage cost (low),8.0,Project-specific numeric assumption,https://assets.publishing.service.gov.uk/media/69663541e8b93f59c3aecd76/hydrogen-to-power-cost-barriers.pdf
+gas_ccs.co2_transport_storage_cost_gbp_per_tco2_high,CO2 transport and storage cost (high),31.0,Project-specific numeric assumption,https://assets.publishing.service.gov.uk/media/69663541e8b93f59c3aecd76/hydrogen-to-power-cost-barriers.pdf
+gas_ccs.residual_emissions_carbon_cost_gbp_per_tco2,Carbon cost on residual uncaptured emissions,41.84,20 to 150 GBP/tCO2,https://assets.publishing.service.gov.uk/media/69663541e8b93f59c3aecd76/hydrogen-to-power-cost-barriers.pdf
+gas_ccs.natural_gas_emissions_tco2_per_mwh_th,Gas combustion emissions factor,0.184,0.18 to 0.20 tCO2/MWh_th,https://assets.publishing.service.gov.uk/media/69663541e8b93f59c3aecd76/hydrogen-to-power-cost-barriers.pdf
+gas_ccs.fixed_om_gbp_per_mw_year_mid,Gas+CCS fixed O&M intensity (mid),24050.0,"20,000 to 35,000 GBP/MW-yr",https://www.gov.uk/government/publications/electricity-generation-costs-2023
+gas_ccs.fixed_om_gbp_per_mw_year_low,Gas+CCS fixed O&M intensity (low),22300.0,Project-specific numeric assumption,https://www.gov.uk/government/publications/electricity-generation-costs-2023
+gas_ccs.fixed_om_gbp_per_mw_year_high,Gas+CCS fixed O&M intensity (high),25800.0,Project-specific numeric assumption,https://www.gov.uk/government/publications/electricity-generation-costs-2023
+gas_ccs.variable_om_gbp_per_mwh_e,Gas+CCS variable O&M per MWh,5.0,3 to 10 GBP/MWh,https://www.gov.uk/government/publications/electricity-generation-costs-2023
+gas_ccs.ccs_consumables_gbp_per_mwh_e_mid_assumption,CCS consumables cost per MWh (mid),2.0,1 to 6 GBP/MWh,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+gas_ccs.major_maintenance_interval_years_assumption,Years between major maintenance events,10,5 to 15 years,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+gas_ccs.major_maintenance_cost_basis,Basis for major maintenance costing,per_mw,Project-specific text/path assumption,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+gas_ccs.major_maintenance_cost_gbp_per_mw_mid,Major maintenance cost per MW event (mid),81000.0,"50,000 to 150,000 GBP/MW/event",https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+gas_ccs.major_maintenance_cost_gbp_per_gw_mid,Major maintenance cost per GW event (mid),81000000.0,50m to 150m GBP/GW/event,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+gas_ccs.major_maintenance_cost_gbp_per_plant_mid,Major maintenance cost per plant event (mid),72900000.0,50m to 150m GBP/plant/event,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+gas_ccs.major_maintenance_reference_costs_gbp_per_plant.standard_maintenance,Numeric model input parameter,50000000.0,Project-specific numeric assumption,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+gas_ccs.major_maintenance_reference_costs_gbp_per_plant.life_extension,Numeric model input parameter,140000000.0,Project-specific numeric assumption,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions
+gas_ccs.major_maintenance_reference_costs_gbp_per_plant.repowering,Numeric model input parameter,930000000.0,Project-specific numeric assumption,https://www.gov.uk/government/publications/hydrogen-to-power-cost-and-technical-assumptions

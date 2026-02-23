@@ -1,0 +1,236 @@
+{
+  "summary_file": "hybrid/hybrid_dispatch_no_gas_25y_nondepleting_opt_summary.json",
+  "years_checked": 25,
+  "validation_passed": true,
+  "start_soc_pct": 100.0,
+  "end_soc_pct_after_years": 100.0,
+  "min_soc_pct_over_horizon": 71.04513774098534,
+  "max_soc_pct_over_horizon": 100.0,
+  "yearly": [
+    {
+      "year": 1,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 2,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 3,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 4,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 5,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 6,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 7,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 8,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 9,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 10,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 11,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 12,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 13,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 14,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 15,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 16,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 17,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 18,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 19,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 20,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 21,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 22,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 23,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 24,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    },
+    {
+      "year": 25,
+      "start_soc_pct": 100.0,
+      "end_soc_pct": 100.0,
+      "min_soc_pct": 71.04513774098534,
+      "max_soc_pct": 100.0,
+      "gas_generation_mwh": 0.0,
+      "ok": true
+    }
+  ]
+}

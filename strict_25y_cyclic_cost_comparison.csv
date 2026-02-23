@@ -1,0 +1,4 @@
+scenario,summary_file,feasible,objective_total_expenditure_gbp,capex_total_gbp,annual_opex_gbp_per_year,lifecycle_opex_discounted_gbp,start_soc_pct,end_soc_pct,min_soc_pct,wind_mw,solar_mw,electrolyzer_mw,h2_turbine_mw,storage_mwh_h2
+wind_h2_25y_cyclic,wind/h2_total_expenditure_25y_cyclic_summary.json,True,243330659519.7993,118836318678.3346,4979773633.658587,124494340841.46469,100.0,100.0,10.36619792128596,34000.0,0.0,14000.0,8199.779414634146,1408850.09765625
+solar_h2_25y_cyclic,solar/solar_h2_total_expenditure_25y_cyclic_summary.json,False,,,,,,,,,,,,
+hybrid_wind_solar_h2_no_gas_25y_cyclic,hybrid/hybrid_dispatch_no_gas_25y_nondepleting_opt_summary.json,True,247274849581.5495,129610000000.0,4706593983.261979,117664849581.54948,100.0,100.0,71.04513774098534,32000.0,20000.0,14000.0,8200.0,2000000.0
